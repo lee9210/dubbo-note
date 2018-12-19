@@ -46,10 +46,10 @@ public class Consumer {
 //                ((EchoService) demoService).$echo("test4u");
 //                ((EchoService) demoService).$echo("test4u");
 
-                demoService.sayHello("world");
+                String world = demoService.sayHello("world");
 //                ProtocolConfig.destroyAll();
 
-                Thread.sleep(10000000);
+                Thread.sleep(1000);
 //                demoService.say02();
 //                demoService.say03();
 //                demoService.say04();
