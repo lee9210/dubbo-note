@@ -47,6 +47,7 @@ public class Consumer {
 //                ((EchoService) demoService).$echo("test4u");
 
                 String world = demoService.sayHello("world");
+                System.out.println(world);
 //                ProtocolConfig.destroyAll();
 
                 Thread.sleep(1000);
