@@ -33,7 +33,7 @@ public class Consumer {
             try {
                 Thread.sleep(1000);
 
-                Object result = demoService.say01("NIHAO");
+                Object result = demoService.sayHello("NIHAO");
                 System.out.println("result: " + result);
 
             } catch (Throwable throwable) {
